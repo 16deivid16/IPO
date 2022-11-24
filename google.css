@@ -20,7 +20,7 @@ header {
     border-color: red;
     justify-content: center;
     align-items: center;
-    border-radius: 30px;
+    border-radius: 15px;
 
 
     
@@ -31,7 +31,7 @@ main div nav {
     border-left: 5px solid #3e1010;
     border-right: 5px solid #3e1010;
     position: absolute;
-    top: 150px;
+    top: 170px;
     width: 75%;
     background-color: #000000af;
     display: flex;
@@ -44,7 +44,7 @@ nav ul {
 }
 
 nav ul li {
-    padding: 1rem 1.5rem;
+    padding: 1rem 1rem;
     display: inline-block;
 }
 
@@ -57,11 +57,64 @@ nav ul li a:hover {
     font-size: 2.7rem;
     color: #dfdb06;
 }
-#HISTORIA {
+#historia {
     max-width: 1024px;
     margin: 0 auto;
 }
 
-#HISTORIA h1 {
-    font-size: 2.9rem;
+#historia h1 {
+    font-size: 3rem;
+}
+p{
+    font-size: 20px;
+}
+#informacion{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+#informacion h2 {
+    font-size: 3rem;
+}
+
+#caracteristicas {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+#caracteristicas h3 {
+    font-size: 3rem;
+}
+li{
+    font-size: 20px;
+}
+#comprar{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+#comprar h4 {
+    font-size: 3rem;
+}
+
+img {
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+        
+}
+.miniatura{
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+    float:right;
+    clear:right;
+}
+footer {
+    margin-top: 4rem;
+    background-color: #000000;
+    text-align: center;
+    padding: 2.5rem;
+    color: #FFFFFF;
+    font-size: 2rem;
 }
